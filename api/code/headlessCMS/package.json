@@ -1,0 +1,27 @@
+{
+	"name": "api-headless-cms",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "yarn webiny run build",
+		"watch": "yarn webiny run watch"
+	},
+	"dependencies": {
+		"@webiny/api-elasticsearch": "5.13.0-beta.3",
+		"@webiny/api-headless-cms": "5.13.0-beta.3",
+		"@webiny/api-headless-cms-ddb-es": "5.13.0-beta.3",
+		"@webiny/api-i18n": "5.13.0-beta.3",
+		"@webiny/api-i18n-content": "5.13.0-beta.3",
+		"@webiny/api-i18n-ddb": "5.13.0-beta.3",
+		"@webiny/api-security": "5.13.0-beta.3",
+		"@webiny/api-security-admin-users": "5.13.0-beta.3",
+		"@webiny/api-security-admin-users-so-ddb": "5.13.0-beta.3",
+		"@webiny/api-security-cognito-authentication": "5.13.0-beta.3",
+		"@webiny/api-tenancy": "5.13.0-beta.3",
+		"@webiny/cli": "5.13.0-beta.3",
+		"@webiny/db-dynamodb": "5.13.0-beta.3",
+		"@webiny/handler-aws": "5.13.0-beta.3",
+		"@webiny/handler-db": "5.13.0-beta.3",
+		"@webiny/handler-logs": "5.13.0-beta.3",
+		"@webiny/project-utils": "5.13.0-beta.3"
+	}
+}
